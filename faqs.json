@@ -5,7 +5,7 @@
   },
   {
     "keywords": ["work","do","service","services"],
-    "answer": "We specialize in renewable energy import and export."
+    "answer": "We specialize in agricultural and renewable energy import and export."
   },
   {
     "keywords": ["contact","email","phone"],
@@ -18,5 +18,30 @@
   {
     "keywords": ["shipping","delivery"],
     "answer": "We ship globally within 7 working days."
+  },
+
+  {
+    "keywords": ["products","items","goods","agriculture"],
+    "answer": "We deal in agricultural products like grains, seeds, pulses, fertilizers, and farm equipment."
+  },
+  {
+    "keywords": ["quality","standards","certification"],
+    "answer": "All our agricultural products are quality-certified and meet export standards."
+  },
+  {
+    "keywords": ["export","countries","international"],
+    "answer": "We export to more than 15 countries across Asia, Europe and Africa."
+  },
+  {
+    "keywords": ["minimum","order","quantity","moq"],
+    "answer": "Our minimum order quantity varies by product. Please contact us for details."
+  },
+  {
+    "keywords": ["payment","pay","price","cost"],
+    "answer": "We accept secure payments by bank transfer, UPI, and major credit cards."
+  },
+  {
+    "keywords": ["established","founded","year"],
+    "answer": "Harivarsh Import & Export was established in 2022."
   }
 ]
