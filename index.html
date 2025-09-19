@@ -7,40 +7,20 @@
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
 
-    /* Floating Chat Bubble */
-    #chat-bubble {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 60px;
-      height: 60px;
-      background: #0a5b96;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-      color: white;
-      font-size: 28px;
-      z-index: 999;
-    }
 
     /* Chat Window */
-    #chatbot {
-      width: 320px;
-      height: 420px;
-      border-radius: 10px;
-      display: none; /* hidden by default */
-      flex-direction: column;
-      position: fixed;
-      bottom: 90px;
-      right: 20px;
-      background: #f9f9f9;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-      z-index: 999;
-      overflow: hidden;
-    }
+#chatbot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex; /* visible by default */
+  flex-direction: column;
+  background: #f9f9f9;
+  z-index: 1000;
+}
+
 
     #chat-header {
       background: #0a5b96;
@@ -115,9 +95,6 @@
 </head>
 <body>
 
-<!-- Floating Chat Bubble -->
-<div id="chat-bubble">🤖</div>
-
 <!-- Chat Window -->
 <div id="chatbot">
   <div id="chat-header">
@@ -143,19 +120,11 @@
   const chatBox = document.getElementById("chat-box");
   const userInput = document.getElementById("user-input");
   const sendBtn = document.getElementById("send-btn");
-  const chatBubble = document.getElementById("chat-bubble");
   const chatbot = document.getElementById("chatbot");
   const closeBtn = document.getElementById("close-btn");
 
-  // Toggle chatbot open/close
-  chatBubble.addEventListener("click", () => {
-    chatbot.style.display = "flex";
-    chatBubble.style.display = "none";
-  });
-
   closeBtn.addEventListener("click", () => {
     chatbot.style.display = "none";
-    chatBubble.style.display = "flex";
   });
 
   function addMessage(sender, text) {
