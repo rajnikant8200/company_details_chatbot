@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>harivarsh Import & Export – Chatbot</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+
+    /* Floating Chat Bubble */
+    #chat-bubble {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background: #0a5b96;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      color: white;
+      font-size: 28px;
+      z-index: 999;
+    }
+
+    /* Chat Window */
+    #chatbot {
+      width: 320px;
+      height: 420px;
+      border-radius: 10px;
+      display: none; /* hidden by default */
+      flex-direction: column;
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      background: #f9f9f9;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+      z-index: 999;
+      overflow: hidden;
+    }
+
+    #chat-header {
+      background: #0a5b96;
+      color: white;
+      padding: 10px;
+      border-radius: 10px 10px 0 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    #close-btn {
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    #chat-box {
+      flex: 1;
+      overflow-y: auto;
+      padding: 10px;
+      font-size: 14px;
+      background: #e5ddd5;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Chat bubbles */
+    .message {
+      max-width: 80%;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 15px;
+      line-height: 1.4;
+      word-wrap: break-word;
+    }
+
+    .user {
+      align-self: flex-end;
+      background: #dcf8c6;
+      border-bottom-right-radius: 0;
+    }
+
+    .bot {
+      align-self: flex-start;
+      background: white;
+      border-bottom-left-radius: 0;
+    }
+
+    #chat-input {
+      display: flex;
+      border-top: 1px solid #ccc;
+      background: #fff;
+    }
+
+    #user-input {
+      flex: 1;
+      padding: 8px;
+      border: none;
+      outline: none;
+    }
+
+    #send-btn {
+      background: #0a5b96;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Floating Chat Bubble -->
+<div id="chat-bubble">🤖</div>
+
+<!-- Chat Window -->
+<div id="chatbot">
+  <div id="chat-header">
+    Ask about Harivarsh Export
+    <div id="close-btn">×</div>
+  </div>
+  <div id="chat-box"></div>
+  <div id="chat-input">
+    <input id="user-input" type="text" placeholder="Type your question…">
+    <button id="send-btn">Send</button>
+  </div>
+</div>
+
+<script>
+  let faqs = []; // empty until loaded
+
+  // Load the JSON file
+  fetch('faqs.json')
+    .then(res => res.json())
+    .then(data => { faqs = data; })
+    .catch(err => console.error('FAQ file error:', err));
+
+  const chatBox = document.getElementById("chat-box");
+  const userInput = document.getElementById("user-input");
+  const sendBtn = document.getElementById("send-btn");
+  const chatBubble = document.getElementById("chat-bubble");
+  const chatbot = document.getElementById("chatbot");
+  const closeBtn = document.getElementById("close-btn");
+
+  // Toggle chatbot open/close
+  chatBubble.addEventListener("click", () => {
+    chatbot.style.display = "flex";
+    chatBubble.style.display = "none";
+  });
+
+  closeBtn.addEventListener("click", () => {
+    chatbot.style.display = "none";
+    chatBubble.style.display = "flex";
+  });
+
+  function addMessage(sender, text) {
+    const div = document.createElement("div");
+    div.className = `message ${sender}`;
+    div.textContent = text;
+    chatBox.appendChild(div);
+    chatBox.scrollTop = chatBox.scrollHeight;
+  }
+
+  function getAnswer(question) {
+    const q = question.toLowerCase();
+    for (let faq of faqs) {
+      if (faq.keywords.some(k => q.includes(k))) {
+        return faq.answer;
+      }
+    }
+    return "Sorry, I don't have an answer to that yet. Please contact us directly.";
+  }
+
+  function handleSend() {
+    const question = userInput.value.trim();
+    if (!question) return;
+    addMessage("user", question);
+    const answer = getAnswer(question);
+    setTimeout(() => addMessage("bot", answer), 300);
+    userInput.value = "";
+  }
+
+  sendBtn.addEventListener("click", handleSend);
+  userInput.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") handleSend();
+  });
+</script>
+
+
+</body>
+</html>

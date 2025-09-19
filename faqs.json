@@ -1,0 +1,22 @@
+[
+  {
+    "keywords": ["name","company"],
+    "answer": "Our company name is Harivarsh Import & Export Pvt. Ltd."
+  },
+  {
+    "keywords": ["work","do","service","services"],
+    "answer": "We specialize in renewable energy import and export."
+  },
+  {
+    "keywords": ["contact","email","phone"],
+    "answer": "You can contact us at info@harivarshexport.com or call +91-82001-97199."
+  },
+  {
+    "keywords": ["address","location"],
+    "answer": "We are located in Ahmedabad, Gujarat, India."
+  },
+  {
+    "keywords": ["shipping","delivery"],
+    "answer": "We ship globally within 7 working days."
+  }
+]
