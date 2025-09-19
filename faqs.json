@@ -8,11 +8,11 @@
     "answer": "We specialize in agricultural and renewable energy import and export."
   },
   {
-    "keywords": ["contact","email","phone"],
+    "keywords": ["contact","email","phone","reach"],
     "answer": "You can contact us at info@harivarshexport.com or call +91-82001-97199."
   },
   {
-    "keywords": ["address","location"],
+    "keywords": ["address","location","where"],
     "answer": "We are located in Ahmedabad, Gujarat, India."
   },
   {
@@ -41,7 +41,7 @@
     "answer": "We accept secure payments by bank transfer, UPI, and major credit cards."
   },
   {
-    "keywords": ["established","founded","year"],
+    "keywords": ["established","founded","year","started"],
     "answer": "Harivarsh Import & Export was established in 2022."
   }
 ]
