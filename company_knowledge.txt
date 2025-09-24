@@ -1,32 +1,62 @@
-Here’s your full **narrative company profile** again, but now with an extra section that explains **which products are exported to which countries/regions**.
-I’ve kept it in flowing paragraph style so you can copy-paste it directly into a brochure, “About Us” page, or tender document.
+About the Company:
 
----
+Harivarsh Import & Export Pvt. Ltd., started in 2022.
 
-## 📄 Harivarsh Import & Export Pvt. Ltd. – Detailed Company Profile with Export Destinations
+Head office: Ahmedabad, Gujarat, India.
 
-Harivarsh Import & Export Pvt. Ltd. is an Indian trading company established in 2022 and headquartered in Ahmedabad, Gujarat. The firm operates as a specialist in sourcing, exporting and distributing agricultural products while also handling complementary renewable-oriented items wherever commercial conditions are suitable. Its business model is built around export-grade quality certification, strict documentation practices and full compliance with Indian and destination-country regulations. By combining disciplined supplier due diligence with transparent commercial terms, Harivarsh has positioned itself as a dependable partner for both domestic buyers and international importers across Asia, select European markets and an expanding customer base in Africa.
+Specializes in exporting grains, seeds, pulses, fertilizers, and farm equipment.
 
-The company’s product portfolio is anchored in the agricultural sector. It supplies grains procured from vetted suppliers, seeds for cultivation and wholesale distribution, and pulses offered in several grades to match buyer specifications. Fertilizers are provided with documentation aligned to export norms, and farm equipment is made available subject to stock levels and demand cycles. Product availability varies with seasons and supplier inventory, but Harivarsh manages a rolling availability calendar with forward volumes negotiated to stabilise supply for clients. This approach helps maintain consistent quality and predictable timelines even in peak seasons.
+Also deals in renewable-oriented items where suitable.
 
-Customer engagement begins with clear communication. Inbound queries are acknowledged within standard business hours, and the sales team requests essential details such as target products, estimated quantities, delivery locations, timelines and intended Incoterms. These inputs accelerate quotation and planning. Minimum order quantities, pricing and lead times are confirmed during the quotation stage, and pro forma invoices are issued upon request for internal approvals. Once orders are confirmed, the company aims to dispatch goods within seven working days, subject to destination and carrier schedules. Actual delivery times may be influenced by customs processing, port congestion or carrier performance, but Harivarsh applies lead-time buffers and evaluates alternative carriers to minimise disruptions.
+Works with clients in Asia, Europe, and Africa.
 
-Shipping and logistics are planned for cost efficiency and transit reliability. Packaging adheres to durability requirements for long-distance shipping, and labels include batch data for traceability where needed. Tracking references are shared promptly after cargo hand-off, and transit milestones are monitored through logistics partners. Insurance options can be discussed for high-value cargo, and route selection is continually optimised. All shipments are supported by comprehensive export documentation. Certificates of origin, phytosanitary certificates, fumigation documents and product-specific certificates are arranged as required by customs authorities. Safety data sheets and handling or storage guidance are provided for sensitive goods to ensure compliance and safe transport. HS codes are shared to facilitate customs classification, and tariff impacts are discussed with buyers as part of landed-cost planning. Buyers receive commercial invoices and packing lists before dispatch, and any regulatory changes affecting shipments are promptly communicated.
+Products & Destinations:
 
-Harivarsh accepts bank transfers for international settlements, supports UPI payments for domestic transactions where applicable, and processes major credit cards subject to conditions. Settlement timelines, exchange-rate considerations and Incoterms are clearly addressed during the quotation phase to maintain transparency. Risk management practices evaluate geopolitical and logistics factors, and dispute resolution follows the terms set out in the sales contract. After-sales support is available for documentation clarifications and record keeping, and structured post-shipment analyses feed into continuous improvement.
+Grains (wheat, maize, rice) → Bangladesh, Nepal, Sri Lanka
 
-Quality management underpins every stage of the operation. Supplier audits focus on consistency and documentation integrity, sampling methods are applied where product testing is warranted, and weights and measures conform to contract specifications. Batch segregation prevents cross-contamination, and warehouse practices support first-expiry-first-out policies where relevant. Team members undergo periodic compliance training, and document checklists are maintained for each destination market. Carrier performance is reviewed for punctuality and claims ratio, and corrective actions are initiated when deviations are detected.
+Seeds → Vietnam, Philippines, Indonesia
 
-Confidential commercial terms and client information are stored with restricted access to ensure secure data handling. Marketing materials and catalogues reflect current product capabilities, with updates issued whenever the portfolio changes. The company evaluates new product requests against feasibility criteria and may propose pilot shipments for new lanes or products. Client references can be provided subject to confidentiality agreements. All order scopes and amendments are documented through written confirmations to avoid ambiguity.
+Pulses → UAE, Saudi Arabia, Oman
 
-**Export destinations and product focus:**
-Harivarsh currently serves more than fifteen countries across Asia, Europe and Africa. Its grains, such as wheat, maize and rice varieties, are primarily exported to markets in Bangladesh, Nepal and Sri Lanka, where consistent food-grade quality and timely delivery are critical. Certified cultivation seeds are shipped to Vietnam, the Philippines and Indonesia to support large-scale agricultural programmes. Pulses in multiple grades are exported to buyers in the United Arab Emirates, Saudi Arabia and Oman to meet regional demand for high-protein food staples. Fertilizers and soil-improvement inputs are supplied to African markets such as Kenya, Tanzania and Ghana, where rapid agricultural expansion creates demand for reliable inputs. Farm equipment and renewable-oriented items, when available, are delivered to select partners in European countries including Germany and the Netherlands under export-compliance conditions. This country-to-product mapping evolves as new buyers are onboarded and as seasonal opportunities arise, but it illustrates the company’s ability to match specific product lines with the needs of distinct regions.
+Fertilizers → Kenya, Tanzania, Ghana
 
-Harivarsh Import & Export Pvt. Ltd. defines its mission as connecting agricultural supply with global demand. Its values emphasise reliability, responsiveness and transparency while encouraging sustainable practices within its supply network. The organisation invests in process standardisation for predictable outcomes and monitors performance metrics across order stages. Continuous improvement initiatives target shorter cycle times and greater accuracy. Client onboarding includes validation of import requirements and credit terms are considered case by case and subject to approval. Stock positioning is adjusted in response to seasonal cycles, communication templates streamline routine order updates, and escalation paths are defined for time-critical shipments.
+Farm equipment & renewables → Germany, Netherlands
 
-With a headquarters in Ahmedabad, a dedicated sales desk coordinating closely with documentation specialists, and a proven record of on-time dispatch and accurate paperwork, Harivarsh has built a reputation as a reliable partner for agricultural trade. The company continues to expand its market reach in line with demand, aligning offerings with export-grade quality expectations and treating client communication as a critical component of service. Enquiries for products not explicitly listed in the catalogue are welcomed, and contact is available at **[info@harivarshexport.com](mailto:info@harivarshexport.com)** for sales questions or at **+91-82001-97199** during business hours.
+Operations:
 
-This comprehensive approach, combined with clearly defined product-to-country strategies, enables Harivarsh Import & Export Pvt. Ltd. to maintain long-term partnerships built on consistent delivery, ethical practices and compliance with both Indian and international trade standards.
+Dispatch goal: within 7 working days after confirmation.
 
----
+Delivery depends on customs, ports, carriers.
 
+Documentation includes: Certificates of Origin, Phytosanitary, Fumigation, HS Codes, Safety Sheets, Commercial Invoice, Packing List.
+
+Packaging: durable, traceable with batch labels.
+
+Payments:
+
+International: Bank transfer, credit cards (conditions).
+
+Domestic: UPI, bank transfer, credit cards.
+
+Exchange rates & Incoterms clarified at quotation.
+
+Credit terms: case by case.
+
+Customer Service:
+
+Queries acknowledged in business hours.
+
+After-sales: documentation clarifications, records.
+
+Disputes: as per sales contract.
+
+Contact: info@harivarshexport.com
+ | +91-82001-97199
+
+Quality:
+
+Supplier audits, sampling, and traceability.
+
+FIFO in warehouses, cross-contamination prevention.
+
+Export-grade quality standards maintained.
