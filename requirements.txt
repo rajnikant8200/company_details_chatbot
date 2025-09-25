@@ -1,2 +1,14 @@
 fastapi==0.112.2
 uvicorn[standard]==0.30.6
+FastAPI web framework
+fastapi
+
+Server to run FastAPI
+uvicorn
+gunicorn
+
+For reading the .env file
+python-dotenv
+
+Google Gemini API
+google-generativeai
