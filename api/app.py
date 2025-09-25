@@ -8,6 +8,7 @@ from typing import List, Dict, Any
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from fastapi.responses import FileResponse  # <-- 1. ADDED THIS IMPORT
 
 # No external API usage. Answers are generated locally from the knowledge file.
 
@@ -21,8 +22,10 @@ app.add_middleware(
 )
 
 # Paths
+# Since this script is in /api, ROOT will be the /api folder
 ROOT = Path(__file__).parent
-KNOWLEDGE_PATH = ROOT / "company_knowledge.txt"
+# The knowledge file is in the parent directory
+KNOWLEDGE_PATH = ROOT.parent / "company_knowledge.txt"
 
 # --- Helpers ---
 STOP_WORDS = set([
@@ -73,14 +76,14 @@ def expand_query(q: str) -> List[str]:
     # Common typos and variants
     qn = (
         qn.replace("expot", "export")
-           .replace("exprot", "export")
-           .replace("expart", "export")
-           .replace("cntry", "country")
-           .replace("compny", "company")
-           .replace("adress", "address")
-           .replace("which country to you export", "which countries do you export to")
-           .replace("what we export", "what do you export")
-           .replace("what you provide", "what products do you provide")
+          .replace("exprot", "export")
+          .replace("expart", "export")
+          .replace("cntry", "country")
+          .replace("compny", "company")
+          .replace("adress", "address")
+          .replace("which country to you export", "which countries do you export to")
+          .replace("what we export", "what do you export")
+          .replace("what you provide", "what products do you provide")
     )
     expansions = [qn]
     if "name" in qn:
@@ -358,6 +361,9 @@ async def reindex():
         return {"status": "error", "error": str(e)}
 
 
+# --- 2. THIS IS THE UPDATED FUNCTION ---
 @app.get("/")
-def root():
-    return {"status": "Harivarsh Python local RAG (txt-only, no API) is running!"}
+async def read_index():
+    # This path goes one directory up from /api to find index.html in the root.
+    html_path = ROOT.parent / "index.html"
+    return FileResponse(html_path)
