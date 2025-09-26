@@ -20,8 +20,7 @@ except KeyError:
     exit()
 
 # Initialize the Generative Model
-model = genai.GenerativeModel('gemini-1.5-flash')
-
+model = genai.GenerativeModel('gemini-2.0-flash')
 # --- FastAPI App Setup ---
 app = FastAPI()
 app.add_middleware(
